@@ -2,10 +2,13 @@
 
 from random import choice as rc
 
-from faker import Faker
-
-from app import app
+from faker import Faker #type:ignore
 from models import db, Message
+from app import app
+from models import db
+
+# Your seeding code here
+
 
 fake = Faker()
 
